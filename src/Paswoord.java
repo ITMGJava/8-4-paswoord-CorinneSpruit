@@ -67,12 +67,12 @@ public class Paswoord {
                         check = true;
                         System.out.println("je bent ingelog");
 
-                    } else if (naam.equals(default) & pw.equals(default)) {
+                    } else if (naam.equals(false) & pw.equals(default)) {
                         System.out.println("Verkeerd wachtwoord");
 
                     }
                 } while (!check);
-
+//
 
         }while (check);
 
